@@ -1,0 +1,18 @@
+/* globals.css */
+
+/* Importações do Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset adicional - estilo base global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
